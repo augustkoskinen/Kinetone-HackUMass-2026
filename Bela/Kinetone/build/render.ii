@@ -5,7 +5,7 @@
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
 # 1 "/root/Bela/projects/Kinetone/render.cpp" 2
-# 13 "/root/Bela/projects/Kinetone/render.cpp"
+# 23 "/root/Bela/projects/Kinetone/render.cpp"
 # 1 "./include/Bela.h" 1
 # 86 "./include/Bela.h"
 extern "C"
@@ -3660,7 +3660,7 @@ static inline unsigned int multiplexerChannelForFrame(BelaContext *context, int 
 
 
 }
-# 14 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 24 "/root/Bela/projects/Kinetone/render.cpp" 2
 # 1 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cmath" 1 3
 # 40 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cmath" 3
 
@@ -7107,7 +7107,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 }
 # 1889 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cmath" 3
 }
-# 15 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 25 "/root/Bela/projects/Kinetone/render.cpp" 2
 # 1 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cstdio" 1 3
 # 40 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cstdio" 3
 
@@ -7188,7 +7188,7 @@ namespace std
   using ::__gnu_cxx::vsnprintf;
   using ::__gnu_cxx::vsscanf;
 }
-# 16 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 26 "/root/Bela/projects/Kinetone/render.cpp" 2
 # 1 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cstdlib" 1 3
 # 40 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cstdlib" 3
 # 75 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cstdlib" 3
@@ -8471,7 +8471,7 @@ namespace std
 
 
 }
-# 17 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 27 "/root/Bela/projects/Kinetone/render.cpp" 2
 # 1 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cstring" 1 3
 # 40 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cstring" 3
 
@@ -8835,7 +8835,136 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 18 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 28 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 1 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cctype" 1 3
+# 40 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cctype" 3
+
+
+# 1 "/usr/include/ctype.h" 1 3 4
+# 28 "/usr/include/ctype.h" 3 4
+extern "C" {
+# 46 "/usr/include/ctype.h" 3 4
+enum
+{
+  _ISupper = ((0) < 8 ? ((1 << (0)) << 8) : ((1 << (0)) >> 8)),
+  _ISlower = ((1) < 8 ? ((1 << (1)) << 8) : ((1 << (1)) >> 8)),
+  _ISalpha = ((2) < 8 ? ((1 << (2)) << 8) : ((1 << (2)) >> 8)),
+  _ISdigit = ((3) < 8 ? ((1 << (3)) << 8) : ((1 << (3)) >> 8)),
+  _ISxdigit = ((4) < 8 ? ((1 << (4)) << 8) : ((1 << (4)) >> 8)),
+  _ISspace = ((5) < 8 ? ((1 << (5)) << 8) : ((1 << (5)) >> 8)),
+  _ISprint = ((6) < 8 ? ((1 << (6)) << 8) : ((1 << (6)) >> 8)),
+  _ISgraph = ((7) < 8 ? ((1 << (7)) << 8) : ((1 << (7)) >> 8)),
+  _ISblank = ((8) < 8 ? ((1 << (8)) << 8) : ((1 << (8)) >> 8)),
+  _IScntrl = ((9) < 8 ? ((1 << (9)) << 8) : ((1 << (9)) >> 8)),
+  _ISpunct = ((10) < 8 ? ((1 << (10)) << 8) : ((1 << (10)) >> 8)),
+  _ISalnum = ((11) < 8 ? ((1 << (11)) << 8) : ((1 << (11)) >> 8))
+};
+# 79 "/usr/include/ctype.h" 3 4
+extern const unsigned short int **__ctype_b_loc (void)
+     throw () __attribute__ ((__const__));
+extern const __int32_t **__ctype_tolower_loc (void)
+     throw () __attribute__ ((__const__));
+extern const __int32_t **__ctype_toupper_loc (void)
+     throw () __attribute__ ((__const__));
+# 110 "/usr/include/ctype.h" 3 4
+extern int isalnum (int) throw ();
+extern int isalpha (int) throw ();
+extern int iscntrl (int) throw ();
+extern int isdigit (int) throw ();
+extern int islower (int) throw ();
+extern int isgraph (int) throw ();
+extern int isprint (int) throw ();
+extern int ispunct (int) throw ();
+extern int isspace (int) throw ();
+extern int isupper (int) throw ();
+extern int isxdigit (int) throw ();
+
+
+
+extern int tolower (int __c) throw ();
+
+
+extern int toupper (int __c) throw ();
+# 136 "/usr/include/ctype.h" 3 4
+extern int isblank (int) throw ();
+
+
+
+
+
+
+extern int isctype (int __c, int __mask) throw ();
+
+
+
+
+
+
+extern int isascii (int __c) throw ();
+
+
+
+extern int toascii (int __c) throw ();
+
+
+
+extern int _toupper (int) throw ();
+extern int _tolower (int) throw ();
+# 271 "/usr/include/ctype.h" 3 4
+extern int isalnum_l (int, __locale_t) throw ();
+extern int isalpha_l (int, __locale_t) throw ();
+extern int iscntrl_l (int, __locale_t) throw ();
+extern int isdigit_l (int, __locale_t) throw ();
+extern int islower_l (int, __locale_t) throw ();
+extern int isgraph_l (int, __locale_t) throw ();
+extern int isprint_l (int, __locale_t) throw ();
+extern int ispunct_l (int, __locale_t) throw ();
+extern int isspace_l (int, __locale_t) throw ();
+extern int isupper_l (int, __locale_t) throw ();
+extern int isxdigit_l (int, __locale_t) throw ();
+
+extern int isblank_l (int, __locale_t) throw ();
+
+
+
+extern int __tolower_l (int __c, __locale_t __l) throw ();
+extern int tolower_l (int __c, __locale_t __l) throw ();
+
+
+extern int __toupper_l (int __c, __locale_t __l) throw ();
+extern int toupper_l (int __c, __locale_t __l) throw ();
+# 347 "/usr/include/ctype.h" 3 4
+}
+# 43 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cctype" 2 3
+# 62 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cctype" 3
+namespace std
+{
+  using ::isalnum;
+  using ::isalpha;
+  using ::iscntrl;
+  using ::isdigit;
+  using ::isgraph;
+  using ::islower;
+  using ::isprint;
+  using ::ispunct;
+  using ::isspace;
+  using ::isupper;
+  using ::isxdigit;
+  using ::tolower;
+  using ::toupper;
+}
+
+
+
+
+
+
+
+namespace std
+{
+  using ::isblank;
+}
+# 29 "/root/Bela/projects/Kinetone/render.cpp" 2
 # 1 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/atomic" 1 3
 # 36 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/atomic" 3
 
@@ -10775,7 +10904,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 19 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 30 "/root/Bela/projects/Kinetone/render.cpp" 2
 # 1 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/chrono" 1 3
 # 33 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/chrono" 3
 
@@ -15808,7 +15937,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
   }
 # 883 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/chrono" 3
 }
-# 20 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 31 "/root/Bela/projects/Kinetone/render.cpp" 2
 # 1 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/string" 1 3
 # 37 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/string" 3
 
@@ -21545,132 +21674,6 @@ namespace __cxx11 {
 # 42 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/localefwd.h" 2 3
 # 1 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cctype" 1 3
 # 40 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cctype" 3
-
-
-# 1 "/usr/include/ctype.h" 1 3 4
-# 28 "/usr/include/ctype.h" 3 4
-extern "C" {
-# 46 "/usr/include/ctype.h" 3 4
-enum
-{
-  _ISupper = ((0) < 8 ? ((1 << (0)) << 8) : ((1 << (0)) >> 8)),
-  _ISlower = ((1) < 8 ? ((1 << (1)) << 8) : ((1 << (1)) >> 8)),
-  _ISalpha = ((2) < 8 ? ((1 << (2)) << 8) : ((1 << (2)) >> 8)),
-  _ISdigit = ((3) < 8 ? ((1 << (3)) << 8) : ((1 << (3)) >> 8)),
-  _ISxdigit = ((4) < 8 ? ((1 << (4)) << 8) : ((1 << (4)) >> 8)),
-  _ISspace = ((5) < 8 ? ((1 << (5)) << 8) : ((1 << (5)) >> 8)),
-  _ISprint = ((6) < 8 ? ((1 << (6)) << 8) : ((1 << (6)) >> 8)),
-  _ISgraph = ((7) < 8 ? ((1 << (7)) << 8) : ((1 << (7)) >> 8)),
-  _ISblank = ((8) < 8 ? ((1 << (8)) << 8) : ((1 << (8)) >> 8)),
-  _IScntrl = ((9) < 8 ? ((1 << (9)) << 8) : ((1 << (9)) >> 8)),
-  _ISpunct = ((10) < 8 ? ((1 << (10)) << 8) : ((1 << (10)) >> 8)),
-  _ISalnum = ((11) < 8 ? ((1 << (11)) << 8) : ((1 << (11)) >> 8))
-};
-# 79 "/usr/include/ctype.h" 3 4
-extern const unsigned short int **__ctype_b_loc (void)
-     throw () __attribute__ ((__const__));
-extern const __int32_t **__ctype_tolower_loc (void)
-     throw () __attribute__ ((__const__));
-extern const __int32_t **__ctype_toupper_loc (void)
-     throw () __attribute__ ((__const__));
-# 110 "/usr/include/ctype.h" 3 4
-extern int isalnum (int) throw ();
-extern int isalpha (int) throw ();
-extern int iscntrl (int) throw ();
-extern int isdigit (int) throw ();
-extern int islower (int) throw ();
-extern int isgraph (int) throw ();
-extern int isprint (int) throw ();
-extern int ispunct (int) throw ();
-extern int isspace (int) throw ();
-extern int isupper (int) throw ();
-extern int isxdigit (int) throw ();
-
-
-
-extern int tolower (int __c) throw ();
-
-
-extern int toupper (int __c) throw ();
-# 136 "/usr/include/ctype.h" 3 4
-extern int isblank (int) throw ();
-
-
-
-
-
-
-extern int isctype (int __c, int __mask) throw ();
-
-
-
-
-
-
-extern int isascii (int __c) throw ();
-
-
-
-extern int toascii (int __c) throw ();
-
-
-
-extern int _toupper (int) throw ();
-extern int _tolower (int) throw ();
-# 271 "/usr/include/ctype.h" 3 4
-extern int isalnum_l (int, __locale_t) throw ();
-extern int isalpha_l (int, __locale_t) throw ();
-extern int iscntrl_l (int, __locale_t) throw ();
-extern int isdigit_l (int, __locale_t) throw ();
-extern int islower_l (int, __locale_t) throw ();
-extern int isgraph_l (int, __locale_t) throw ();
-extern int isprint_l (int, __locale_t) throw ();
-extern int ispunct_l (int, __locale_t) throw ();
-extern int isspace_l (int, __locale_t) throw ();
-extern int isupper_l (int, __locale_t) throw ();
-extern int isxdigit_l (int, __locale_t) throw ();
-
-extern int isblank_l (int, __locale_t) throw ();
-
-
-
-extern int __tolower_l (int __c, __locale_t __l) throw ();
-extern int tolower_l (int __c, __locale_t __l) throw ();
-
-
-extern int __toupper_l (int __c, __locale_t __l) throw ();
-extern int toupper_l (int __c, __locale_t __l) throw ();
-# 347 "/usr/include/ctype.h" 3 4
-}
-# 43 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cctype" 2 3
-# 62 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/cctype" 3
-namespace std
-{
-  using ::isalnum;
-  using ::isalpha;
-  using ::iscntrl;
-  using ::isdigit;
-  using ::isgraph;
-  using ::islower;
-  using ::isprint;
-  using ::ispunct;
-  using ::isspace;
-  using ::isupper;
-  using ::isxdigit;
-  using ::tolower;
-  using ::toupper;
-}
-
-
-
-
-
-
-
-namespace std
-{
-  using ::isblank;
-}
 # 43 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/bits/localefwd.h" 2 3
 
 namespace std __attribute__ ((__visibility__ ("default")))
@@ -28463,7 +28466,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 }
 # 54 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/string" 2 3
-# 21 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 32 "/root/Bela/projects/Kinetone/render.cpp" 2
 # 1 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/vector" 1 3
 # 59 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/vector" 3
 
@@ -32066,7 +32069,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 }
 # 70 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/vector" 2 3
-# 22 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 33 "/root/Bela/projects/Kinetone/render.cpp" 2
 # 1 "/usr/xenomai/include/cobalt/fcntl.h" 1
 # 19 "/usr/xenomai/include/cobalt/fcntl.h" 3
 # 1 "/usr/include/fcntl.h" 1 3 4
@@ -32332,7 +32335,7 @@ __typeof__(int) __cobalt_fcntl(int fd, int cmd, ...); __typeof__(int) __real_fcn
 
 
 }
-# 23 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 34 "/root/Bela/projects/Kinetone/render.cpp" 2
 # 1 "/usr/include/termios.h" 1 3 4
 # 35 "/usr/include/termios.h" 3 4
 extern "C" {
@@ -32431,10 +32434,354 @@ extern __pid_t tcgetsid (int __fd) throw ();
 
 
 }
-# 24 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 35 "/root/Bela/projects/Kinetone/render.cpp" 2
 # 1 "/usr/xenomai/include/cobalt/unistd.h" 1
 # 19 "/usr/xenomai/include/cobalt/unistd.h" 3
-# 25 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 36 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 1 "/usr/xenomai/include/cobalt/sys/ioctl.h" 1
+# 19 "/usr/xenomai/include/cobalt/sys/ioctl.h" 3
+# 1 "/usr/include/arm-linux-gnueabihf/sys/ioctl.h" 1 3 4
+# 23 "/usr/include/arm-linux-gnueabihf/sys/ioctl.h" 3 4
+extern "C" {
+
+
+
+# 1 "/usr/include/arm-linux-gnueabihf/bits/ioctls.h" 1 3 4
+# 23 "/usr/include/arm-linux-gnueabihf/bits/ioctls.h" 3 4
+# 1 "/usr/include/arm-linux-gnueabihf/asm/ioctls.h" 1 3 4
+
+
+
+
+
+# 1 "/usr/include/asm-generic/ioctls.h" 1 3 4
+
+
+
+# 1 "/usr/include/linux/ioctl.h" 1 3 4
+
+
+
+# 1 "/usr/include/arm-linux-gnueabihf/asm/ioctl.h" 1 3 4
+# 1 "/usr/include/asm-generic/ioctl.h" 1 3 4
+# 2 "/usr/include/arm-linux-gnueabihf/asm/ioctl.h" 2 3 4
+# 5 "/usr/include/linux/ioctl.h" 2 3 4
+# 5 "/usr/include/asm-generic/ioctls.h" 2 3 4
+# 7 "/usr/include/arm-linux-gnueabihf/asm/ioctls.h" 2 3 4
+# 24 "/usr/include/arm-linux-gnueabihf/bits/ioctls.h" 2 3 4
+# 27 "/usr/include/arm-linux-gnueabihf/sys/ioctl.h" 2 3 4
+
+
+# 1 "/usr/include/arm-linux-gnueabihf/bits/ioctl-types.h" 1 3 4
+# 27 "/usr/include/arm-linux-gnueabihf/bits/ioctl-types.h" 3 4
+struct winsize
+  {
+    unsigned short int ws_row;
+    unsigned short int ws_col;
+    unsigned short int ws_xpixel;
+    unsigned short int ws_ypixel;
+  };
+
+
+struct termio
+  {
+    unsigned short int c_iflag;
+    unsigned short int c_oflag;
+    unsigned short int c_cflag;
+    unsigned short int c_lflag;
+    unsigned char c_line;
+    unsigned char c_cc[8];
+};
+# 30 "/usr/include/arm-linux-gnueabihf/sys/ioctl.h" 2 3 4
+
+
+
+
+
+
+# 1 "/usr/include/arm-linux-gnueabihf/sys/ttydefaults.h" 1 3 4
+# 37 "/usr/include/arm-linux-gnueabihf/sys/ioctl.h" 2 3 4
+
+
+
+
+extern int ioctl (int __fd, unsigned long int __request, ...) throw ();
+
+}
+# 20 "/usr/xenomai/include/cobalt/sys/ioctl.h" 2 3
+
+
+
+
+
+
+
+extern "C" {
+
+
+__typeof__(int) __cobalt_ioctl(int fildes, unsigned int request, ...); __typeof__(int) __real_ioctl(int fildes, unsigned int request, ...); __typeof__(int) __wrap_ioctl(int fildes, unsigned int request, ...);
+
+
+}
+# 37 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 1 "/usr/include/arm-linux-gnueabihf/sys/stat.h" 1 3 4
+# 36 "/usr/include/arm-linux-gnueabihf/sys/stat.h" 3 4
+# 1 "/usr/xenomai/include/cobalt/time.h" 1 3 4
+# 19 "/usr/xenomai/include/cobalt/time.h" 3
+# 37 "/usr/include/arm-linux-gnueabihf/sys/stat.h" 2 3 4
+# 102 "/usr/include/arm-linux-gnueabihf/sys/stat.h" 3 4
+extern "C" {
+
+
+# 1 "/usr/include/arm-linux-gnueabihf/bits/stat.h" 1 3 4
+# 105 "/usr/include/arm-linux-gnueabihf/sys/stat.h" 2 3 4
+# 208 "/usr/include/arm-linux-gnueabihf/sys/stat.h" 3 4
+extern int stat (const char *__restrict __file,
+   struct stat *__restrict __buf) throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+extern int fstat (int __fd, struct stat *__buf) throw () __attribute__ ((__nonnull__ (2)));
+# 227 "/usr/include/arm-linux-gnueabihf/sys/stat.h" 3 4
+extern int stat64 (const char *__restrict __file,
+     struct stat64 *__restrict __buf) throw () __attribute__ ((__nonnull__ (1, 2)));
+extern int fstat64 (int __fd, struct stat64 *__buf) throw () __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+
+
+extern int fstatat (int __fd, const char *__restrict __file,
+      struct stat *__restrict __buf, int __flag)
+     throw () __attribute__ ((__nonnull__ (2, 3)));
+# 252 "/usr/include/arm-linux-gnueabihf/sys/stat.h" 3 4
+extern int fstatat64 (int __fd, const char *__restrict __file,
+        struct stat64 *__restrict __buf, int __flag)
+     throw () __attribute__ ((__nonnull__ (2, 3)));
+
+
+
+
+
+
+
+extern int lstat (const char *__restrict __file,
+    struct stat *__restrict __buf) throw () __attribute__ ((__nonnull__ (1, 2)));
+# 275 "/usr/include/arm-linux-gnueabihf/sys/stat.h" 3 4
+extern int lstat64 (const char *__restrict __file,
+      struct stat64 *__restrict __buf)
+     throw () __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+
+extern int chmod (const char *__file, __mode_t __mode)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern int lchmod (const char *__file, __mode_t __mode)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+extern int fchmod (int __fd, __mode_t __mode) throw ();
+
+
+
+
+
+extern int fchmodat (int __fd, const char *__file, __mode_t __mode,
+       int __flag)
+     throw () __attribute__ ((__nonnull__ (2))) ;
+
+
+
+
+
+
+extern __mode_t umask (__mode_t __mask) throw ();
+
+
+
+
+extern __mode_t getumask (void) throw ();
+
+
+
+extern int mkdir (const char *__path, __mode_t __mode)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern int mkdirat (int __fd, const char *__path, __mode_t __mode)
+     throw () __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+
+extern int mknod (const char *__path, __mode_t __mode, __dev_t __dev)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern int mknodat (int __fd, const char *__path, __mode_t __mode,
+      __dev_t __dev) throw () __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+extern int mkfifo (const char *__path, __mode_t __mode)
+     throw () __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+extern int mkfifoat (int __fd, const char *__path, __mode_t __mode)
+     throw () __attribute__ ((__nonnull__ (2)));
+
+
+
+
+
+extern int utimensat (int __fd, const char *__path,
+        const struct timespec __times[2],
+        int __flags)
+     throw () __attribute__ ((__nonnull__ (2)));
+
+
+
+
+extern int futimens (int __fd, const struct timespec __times[2]) throw ();
+# 398 "/usr/include/arm-linux-gnueabihf/sys/stat.h" 3 4
+extern int __fxstat (int __ver, int __fildes, struct stat *__stat_buf)
+     throw () __attribute__ ((__nonnull__ (3)));
+extern int __xstat (int __ver, const char *__filename,
+      struct stat *__stat_buf) throw () __attribute__ ((__nonnull__ (2, 3)));
+extern int __lxstat (int __ver, const char *__filename,
+       struct stat *__stat_buf) throw () __attribute__ ((__nonnull__ (2, 3)));
+extern int __fxstatat (int __ver, int __fildes, const char *__filename,
+         struct stat *__stat_buf, int __flag)
+     throw () __attribute__ ((__nonnull__ (3, 4)));
+# 431 "/usr/include/arm-linux-gnueabihf/sys/stat.h" 3 4
+extern int __fxstat64 (int __ver, int __fildes, struct stat64 *__stat_buf)
+     throw () __attribute__ ((__nonnull__ (3)));
+extern int __xstat64 (int __ver, const char *__filename,
+        struct stat64 *__stat_buf) throw () __attribute__ ((__nonnull__ (2, 3)));
+extern int __lxstat64 (int __ver, const char *__filename,
+         struct stat64 *__stat_buf) throw () __attribute__ ((__nonnull__ (2, 3)));
+extern int __fxstatat64 (int __ver, int __fildes, const char *__filename,
+    struct stat64 *__stat_buf, int __flag)
+     throw () __attribute__ ((__nonnull__ (3, 4)));
+
+extern int __xmknod (int __ver, const char *__path, __mode_t __mode,
+       __dev_t *__dev) throw () __attribute__ ((__nonnull__ (2, 4)));
+
+extern int __xmknodat (int __ver, int __fd, const char *__path,
+         __mode_t __mode, __dev_t *__dev)
+     throw () __attribute__ ((__nonnull__ (3, 5)));
+
+
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+ stat (const char *__path, struct stat *__statbuf) throw ()
+{
+  return __xstat (3, __path, __statbuf);
+}
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+ lstat (const char *__path, struct stat *__statbuf) throw ()
+{
+  return __lxstat (3, __path, __statbuf);
+}
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+ fstat (int __fd, struct stat *__statbuf) throw ()
+{
+  return __fxstat (3, __fd, __statbuf);
+}
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+ fstatat (int __fd, const char *__filename, struct stat *__statbuf, int __flag) throw ()
+
+{
+  return __fxstatat (3, __fd, __filename, __statbuf, __flag);
+}
+
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+ mknod (const char *__path, __mode_t __mode, __dev_t __dev) throw ()
+{
+  return __xmknod (1, __path, __mode, &__dev);
+}
+
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+ mknodat (int __fd, const char *__path, __mode_t __mode, __dev_t __dev) throw ()
+
+{
+  return __xmknodat (1, __fd, __path, __mode, &__dev);
+}
+
+
+
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+ stat64 (const char *__path, struct stat64 *__statbuf) throw ()
+{
+  return __xstat64 (3, __path, __statbuf);
+}
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+ lstat64 (const char *__path, struct stat64 *__statbuf) throw ()
+{
+  return __lxstat64 (3, __path, __statbuf);
+}
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+ fstat64 (int __fd, struct stat64 *__statbuf) throw ()
+{
+  return __fxstat64 (3, __fd, __statbuf);
+}
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+ fstatat64 (int __fd, const char *__filename, struct stat64 *__statbuf, int __flag) throw ()
+
+{
+  return __fxstatat64 (3, __fd, __filename, __statbuf, __flag);
+}
+
+
+
+
+
+
+}
+# 38 "/root/Bela/projects/Kinetone/render.cpp" 2
 # 1 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/map" 1 3
 # 59 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/map" 3
 
@@ -37949,7 +38296,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 }
 # 63 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/map" 2 3
-# 26 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 39 "/root/Bela/projects/Kinetone/render.cpp" 2
 # 1 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/iostream" 1 3
 # 37 "/usr/bin/../lib/gcc/arm-linux-gnueabihf/6.3.0/../../../../include/c++/6.3.0/iostream" 3
 
@@ -46362,7 +46709,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 27 "/root/Bela/projects/Kinetone/render.cpp" 2
+# 40 "/root/Bela/projects/Kinetone/render.cpp" 2
 
 
 
@@ -46376,7 +46723,20 @@ const speed_t kBaud = 0010002;
 const double kStaleSeconds = 1.0;
 
 
-const double kSilenceReopenSeconds = 2.0;
+const double kSilenceWarnSeconds = 2.0;
+const double kSilenceForceReopenSeconds = 20.0;
+
+
+const double kStatusStaleSeconds = 3.0;
+
+
+const float kGuideVolume = 0.25f;
+const float kPromptRepeatSec = 6.0f;
+const float kLeftGuideFreq = 440.0f;
+const float kRightGuideFreq = 880.0f;
+
+
+const char *kCommandFile = "/tmp/glove";
 
 
 
@@ -46385,14 +46745,46 @@ const double kSilenceReopenSeconds = 2.0;
 enum { kLeft = 0, kRight = 1 };
 
 
+enum { kStateOffline = 0, kStateWaiting, kStatePrompt, kStateMeasuring, kStateReady };
+enum { kEvNone = 0, kEvFullMode, kEvCapture, kEvStepDone, kEvRedo,
+       kEvRestart, kEvHandReady, kEvResumed };
+
 struct HandState {
- std::atomic<bool> connected{false};
- std::atomic<uint8_t> fingers{0};
- std::atomic<int> roll{0};
- std::atomic<int> motion{0};
+        std::atomic<bool> connected{false};
+        std::atomic<uint8_t> fingers{0};
+        std::atomic<int> roll{0};
+        std::atomic<int> motion{0};
+        std::atomic<int> setupState{kStateOffline};
+        std::atomic<int> setupStep{0};
 };
 
 HandState gHands[2];
+
+const unsigned kEventQueueSize = 32;
+uint8_t gEventQueue[kEventQueueSize];
+std::atomic<unsigned> gEventHead{0}, gEventTail{0};
+
+void pushEvent(int hand, int ev)
+{
+        unsigned head = gEventHead.load();
+        unsigned next = (head + 1) % kEventQueueSize;
+        if (next == gEventTail.load())
+                return;
+        gEventQueue[head] = (uint8_t)((hand << 4) | ev);
+        gEventHead.store(next);
+}
+
+bool popEvent(int &hand, int &ev)
+{
+        unsigned tail = gEventTail.load();
+        if (tail == gEventHead.load())
+                return false;
+        uint8_t v = gEventQueue[tail];
+        gEventTail.store((tail + 1) % kEventQueueSize);
+        hand = v >> 4;
+        ev = v & 0x0F;
+        return true;
+}
 
 
 
@@ -46400,10 +46792,12 @@ HandState gHands[2];
 
 using Clock = std::chrono::steady_clock;
 
+const char *gOpenDevice = nullptr;
+
 int openSerial()
 {
     for (const char *dev : kSerialDevices) {
-        int fd = open(dev, 00 | 0400);
+        int fd = open(dev, 02 | 0400);
         if (fd < 0)
             continue;
 
@@ -46417,6 +46811,7 @@ int openSerial()
         cfsetispeed(&tty, kBaud);
         cfsetospeed(&tty, kBaud);
         tty.c_cflag |= (0004000 | 0000200);
+        tty.c_cflag &= ~0002000;
         tty.c_cc[6] = 0;
         tty.c_cc[5] = 1;
 
@@ -46425,11 +46820,23 @@ int openSerial()
             continue;
         }
 
+
+        int lines = 0x002 | 0x004;
+        ioctl(fd, 0x5417, &lines);
+
         tcflush(fd, 0);
+        gOpenDevice = dev;
         printf("Serial: opened %s\n", dev);
         return fd;
     }
     return -1;
+}
+
+
+bool openDeviceStillThere()
+{
+        struct stat st;
+        return gOpenDevice != nullptr && stat(gOpenDevice, &st) == 0;
 }
 
 
@@ -46471,7 +46878,49 @@ bool parseFloat(const std::string &s, float &out)
     return end != s.c_str() && *end == '\0';
 }
 
+int handFromName(const std::string &s)
+{
+        if (s == "LEFT") return kLeft;
+        if (s == "RIGHT") return kRight;
+        return -1;
+}
+
+int stateFromName(const std::string &s)
+{
+        if (s == "OFFLINE") return kStateOffline;
+        if (s == "WAITING") return kStateWaiting;
+        if (s == "PROMPT") return kStatePrompt;
+        if (s == "MEASURING") return kStateMeasuring;
+        if (s == "READY") return kStateReady;
+        return -1;
+}
+
+
+const char *stateToName(int s)
+{
+        switch (s) {
+        case kStateWaiting: return "WAITING for its turn";
+        case kStatePrompt: return "waiting for index tap";
+        case kStateMeasuring: return "measuring";
+        case kStateReady: return "READY";
+        default: return "OFFLINE";
+        }
+}
+
+int eventFromName(const std::string &s)
+{
+        if (s == "FULL_MODE") return kEvFullMode;
+        if (s == "CAPTURE") return kEvCapture;
+        if (s == "STEP_DONE") return kEvStepDone;
+        if (s == "REDO") return kEvRedo;
+        if (s == "RESTART") return kEvRestart;
+        if (s == "HAND_READY") return kEvHandReady;
+        if (s == "RESUMED") return kEvResumed;
+        return -1;
+}
+
 Clock::time_point gLastSeen[2];
+Clock::time_point gLastStatus[2];
 
 void processLine(const std::string &line, Clock::time_point now)
 {
@@ -46480,6 +46929,39 @@ void processLine(const std::string &line, Clock::time_point now)
         return;
 
     std::vector<std::string> f = split(line, ',');
+
+
+    if (f[0] == "INFO") {
+        printf("Receiver: %s\n", line.c_str() + 5);
+        return;
+    }
+
+
+    if (f[0] == "STATUS") {
+        if (f.size() != 4) return;
+        int hand = handFromName(f[1]);
+        int st = stateFromName(f[2]);
+        if (hand < 0 || st < 0) return;
+        char *end;
+        long step = strtol(f[3].c_str(), &end, 10);
+        if (end == f[3].c_str() || *end != '\0') return;
+        gHands[hand].setupStep = (int)step;
+        gHands[hand].setupState = st;
+        gLastStatus[hand] = now;
+        return;
+    }
+
+
+    if (f[0] == "EVENT") {
+        if (f.size() != 3) return;
+        int hand = handFromName(f[1]);
+        int ev = eventFromName(f[2]);
+        if (hand < 0 || ev < 0) return;
+        printf("Setup: %s %s\n", f[1].c_str(), f[2].c_str());
+        pushEvent(hand, ev);
+        return;
+    }
+
     if (f.size() != 4)
         return;
 
@@ -46519,18 +47001,105 @@ void processLine(const std::string &line, Clock::time_point now)
 
 
 
+void printCommandHelp()
+{
+        printf("Glove commands (type in the Bela IDE console):\n");
+        printf("  echo setup > /tmp/glove          re-zero both gloves\n");
+        printf("  echo setup left > /tmp/glove     re-zero one glove (left/right)\n");
+        printf("  echo full > /tmp/glove           full calibration, both gloves\n");
+        printf("  echo full right > /tmp/glove     full calibration, one glove\n");
+        printf("  echo status > /tmp/glove         show glove states\n");
+}
+
+
+void checkCommandFile(int fd)
+{
+        FILE *fp = fopen(kCommandFile, "r");
+        if (!fp)
+                return;
+
+        char line[64] = {0};
+        if (!fgets(line, sizeof(line), fp))
+                line[0] = '\0';
+        fclose(fp);
+        unlink(kCommandFile);
+
+        for (char *p = line; *p; p++)
+                *p = (char)tolower((unsigned char)*p);
+
+        char w1[16] = {0}, w2[16] = {0};
+        int words = sscanf(line, "%15s %15s", w1, w2);
+        if (words < 1) {
+                printCommandHelp();
+                return;
+        }
+
+        if (strcmp(w1, "status") == 0) {
+                printf("Left glove:  %s\n", stateToName(gHands[kLeft].setupState));
+                printf("Right glove: %s\n", stateToName(gHands[kRight].setupState));
+                return;
+        }
+
+        const char *type;
+        if (strcmp(w1, "setup") == 0 || strcmp(w1, "rezero") == 0)
+                type = "SETUP";
+        else if (strcmp(w1, "full") == 0 || strcmp(w1, "calibrate") == 0)
+                type = "FULL";
+        else {
+                printf("Unknown command '%s'\n", w1);
+                printCommandHelp();
+                return;
+        }
+
+        const char *hand;
+        if (words < 2 || strcmp(w2, "both") == 0)
+                hand = "BOTH";
+        else if (strcmp(w2, "left") == 0)
+                hand = "LEFT";
+        else if (strcmp(w2, "right") == 0)
+                hand = "RIGHT";
+        else {
+                printf("Unknown glove '%s' (use left, right or both)\n", w2);
+                return;
+        }
+
+        if (fd < 0) {
+                printf("Can't send command: receiver not connected\n");
+                return;
+        }
+
+        char out[48];
+        snprintf(out, sizeof(out), "CMD,%s,%s\n", type, hand);
+        if (write(fd, out, strlen(out)) < 0)
+                printf("Can't send command: serial write failed\n");
+        else
+                printf("Sent to receiver: %s", out);
+}
+
+
+
+
+
 void serialTask(void *)
 {
     int fd = -1;
     std::string lineBuf;
     char buf[256];
     Clock::time_point lastData = Clock::now();
+    bool warnedSilent = false;
+
+    unlink(kCommandFile);
+    printCommandHelp();
 
     while (!Bela_stopRequested()) {
+
+        checkCommandFile(fd);
 
         if (fd < 0) {
             gHands[kLeft].connected = false;
             gHands[kRight].connected = false;
+            gHands[kLeft].setupState = kStateOffline;
+            gHands[kRight].setupState = kStateOffline;
 
             fd = openSerial();
             if (fd < 0) {
@@ -46539,6 +47108,7 @@ void serialTask(void *)
             }
             lineBuf.clear();
             lastData = Clock::now();
+            warnedSilent = false;
         }
 
         ssize_t n = read(fd, buf, sizeof(buf));
@@ -46551,8 +47121,13 @@ void serialTask(void *)
             continue;
         }
 
-        if (n > 0)
+        if (n > 0) {
             lastData = now;
+            if (warnedSilent) {
+                printf("Serial: receiver data is back\n");
+                warnedSilent = false;
+            }
+        }
 
         for (ssize_t i = 0; i < n; i++) {
             char c = buf[i];
@@ -46569,18 +47144,38 @@ void serialTask(void *)
         }
 
 
-        if (std::chrono::duration<double>(now - lastData).count() > kSilenceReopenSeconds) {
-            printf("Serial: no data, reopening\n");
+
+        double silent = std::chrono::duration<double>(now - lastData).count();
+
+        if (silent > kSilenceWarnSeconds && !warnedSilent) {
+            printf("Serial: receiver silent - waiting for it (port kept open)\n");
+            warnedSilent = true;
+        }
+
+        if (silent > kSilenceWarnSeconds && !openDeviceStillThere()) {
+            printf("Serial: receiver unplugged, reconnecting\n");
             close(fd);
             fd = -1;
             continue;
         }
 
+        if (silent > kSilenceForceReopenSeconds) {
+            printf("Serial: no data for %.0f s, reopening\n", silent);
+            close(fd);
+            fd = -1;
+            continue;
+        }
 
         for (int hand = 0; hand < 2; hand++) {
+
             if (gHands[hand].connected &&
                 std::chrono::duration<double>(now - gLastSeen[hand]).count() > kStaleSeconds)
                     gHands[hand].connected = false;
+
+
+            if (gHands[hand].setupState != kStateOffline &&
+                std::chrono::duration<double>(now - gLastStatus[hand]).count() > kStatusStaleSeconds)
+                    gHands[hand].setupState = kStateOffline;
         }
     }
 
@@ -46594,9 +47189,148 @@ AuxiliaryTask gSerialTask;
 
 
 
+struct GuideNote { float freq; int on; int off; };
+
+const int kGuideQueueSize = 64;
+GuideNote gGuide[kGuideQueueSize];
+int gGuideRead = 0, gGuideWrite = 0;
+GuideNote gGuideCur;
+bool gGuidePlaying = false;
+int gGuidePos = 0;
+float gGuidePhase = 0.0f;
+float gSampleRate = 44100.0f;
+
+void guideAdd(float freq, float onMs, float offMs)
+{
+        int next = (gGuideWrite + 1) % kGuideQueueSize;
+        if (next == gGuideRead)
+                return;
+        gGuide[gGuideWrite] = { freq,
+                                (int)(onMs * 0.001f * gSampleRate),
+                                (int)(offMs * 0.001f * gSampleRate) };
+        gGuideWrite = next;
+}
+
+float guideSample()
+{
+        if (!gGuidePlaying) {
+                if (gGuideRead == gGuideWrite)
+                        return 0.0f;
+                gGuideCur = gGuide[gGuideRead];
+                gGuideRead = (gGuideRead + 1) % kGuideQueueSize;
+                gGuidePos = 0;
+                gGuidePhase = 0.0f;
+                gGuidePlaying = true;
+        }
+
+        float s = 0.0f;
+        if (gGuidePos < gGuideCur.on) {
+                int fade = (int)(0.005f * gSampleRate);
+                float env = 1.0f;
+                if (gGuidePos < fade)
+                        env = (float)gGuidePos / fade;
+                else if (gGuideCur.on - gGuidePos < fade)
+                        env = (float)(gGuideCur.on - gGuidePos) / fade;
+                s = env * sinf(gGuidePhase) * kGuideVolume;
+                gGuidePhase += 2.0f * (float)3.14159265358979323846 * gGuideCur.freq / gSampleRate;
+                if (gGuidePhase > 2.0f * (float)3.14159265358979323846)
+                        gGuidePhase -= 2.0f * (float)3.14159265358979323846;
+        }
+
+        gGuidePos++;
+        if (gGuidePos >= gGuideCur.on + gGuideCur.off)
+                gGuidePlaying = false;
+        return s;
+}
+
+float handBaseFreq(int hand) { return hand == kLeft ? kLeftGuideFreq : kRightGuideFreq; }
+
+
+void playPrompt(int hand, int step)
+{
+        float b = handBaseFreq(hand);
+        for (int i = 0; i < step; i++)
+                guideAdd(b, 120, 150);
+}
+
+void playEvent(int hand, int ev)
+{
+        float b = handBaseFreq(hand);
+        switch (ev) {
+        case kEvFullMode: guideAdd(b, 60, 60); guideAdd(b, 60, 60); guideAdd(b * 2.0f, 250, 300); break;
+        case kEvCapture: guideAdd(b * 1.5f, 40, 0); break;
+        case kEvStepDone: guideAdd(b, 100, 20); guideAdd(b * 1.5f, 180, 250); break;
+        case kEvRedo: guideAdd(180.0f, 350, 300); break;
+        case kEvRestart: guideAdd(180.0f, 250, 120); guideAdd(150.0f, 400, 400); break;
+        case kEvHandReady: guideAdd(b, 100, 20); guideAdd(b * 1.26f, 100, 20); guideAdd(b * 1.5f, 300, 400); break;
+        case kEvResumed: guideAdd(b * 1.5f, 80, 40); guideAdd(b, 80, 40); guideAdd(b * 1.5f, 80, 300); break;
+        }
+}
+
+void playAllReady()
+{
+        guideAdd(523.25f, 120, 20);
+        guideAdd(659.25f, 120, 20);
+        guideAdd(783.99f, 120, 20);
+        guideAdd(1046.5f, 450, 200);
+}
+
+bool gPlayable = false;
+float gInstrumentGain = 0.0f;
+int gPromptHand = -1, gPromptStep = -1;
+uint64_t gNextPromptFrame = 0;
+
+void updateSetupGuide(BelaContext *context)
+{
+        uint64_t now = context->audioFramesElapsed;
+
+        int hand, ev;
+        while (popEvent(hand, ev))
+                playEvent(hand, ev);
+
+        int ls = gHands[kLeft].setupState;
+        int rs = gHands[kRight].setupState;
+
+        bool anyConnected = (ls != kStateOffline) || (rs != kStateOffline);
+        bool allReady = anyConnected &&
+                        (ls == kStateOffline || ls == kStateReady) &&
+                        (rs == kStateOffline || rs == kStateReady);
+
+        if (allReady && !gPlayable)
+                playAllReady();
+        gPlayable = allReady;
+
+
+        int ph = -1;
+        if (ls == kStatePrompt) ph = kLeft;
+        else if (rs == kStatePrompt) ph = kRight;
+
+        if (ph >= 0) {
+                int step = gHands[ph].setupStep;
+                if (ph != gPromptHand || step != gPromptStep) {
+                        gPromptHand = ph;
+                        gPromptStep = step;
+                        gNextPromptFrame = now + (uint64_t)(0.4f * gSampleRate);
+                }
+                if (now >= gNextPromptFrame) {
+                        playPrompt(ph, step);
+                        gNextPromptFrame = now + (uint64_t)(kPromptRepeatSec * gSampleRate);
+                }
+        } else {
+                gPromptHand = -1;
+                gPromptStep = -1;
+        }
+}
+
+
+
+
+
 
 const std::map<std::string, float> notes = {
     {"REST", 0.00f},
+    {"A#3", 233.08f},
+    {"B3", 246.94f},
     {"C4", 261.63f},
     {"C#4", 277.18f},
     {"D4", 293.66f},
@@ -46609,30 +47343,65 @@ const std::map<std::string, float> notes = {
     {"A4", 440.00f},
     {"A#4", 466.16f},
     {"B4", 493.88f},
+    {"C5", 523.25f},
+    {"C#5", 554.37f},
+    {"D5", 587.33f},
+    {"D#5", 622.25f},
+    {"E5", 659.25f},
+    {"F5", 698.46f},
+    {"F#5", 739.99f},
+    {"G5", 783.99f},
+    {"G#5", 830.61f},
 };
 
 
+const std::map<std::string, std::string> liamMap = {
+    {"0000000", "REST"},
+    {"0110001", "F#5"},
+    {"0110000", "F5"},
+    {"0110100", "E5"},
+    {"0111000", "D#5"},
+    {"0111100", "D5"},
+    {"0111111", "C#5"},
+    {"0111110", "C5"},
+    {"0010000", "B4"},
+    {"0100000", "A#4"},
+    {"1000000", "A4"},
+    {"1001000", "G#4"},
+    {"1100000", "G4"},
+    {"1110001", "F#4"},
+    {"1110000", "F4"},
+    {"1110100", "E4"},
+    {"1111000", "D#4"},
+    {"1111100", "D4"},
+    {"1111111", "C#4"},
+    {"1111110", "C4"},
+    {"1111010", "A#3"}
+};
+
 const std::map<std::string, std::string> tenorSaxMapping = {
- {"0000000", "REST"},
- {"0100000", "A#4"},
- {"1000000", "A4"},
- {"1100000", "G4"},
- {"1111000", "F#4"},
- {"1110000", "F4"},
- {"1110010", "E4"},
- {"1110100", "D#4"},
- {"1110110", "D4"},
- {"1110111", "C4"}
+    {"0000000", "REST"},
+    {"0100000", "A#4"},
+    {"1000000", "A4"},
+    {"1001000", "G#4"},
+    {"1100000", "G4"},
+    {"1110000", "F4"},
+    {"1110100", "E4"},
+    {"1111000", "D#4"},
+    {"1111100", "D4"},
+    {"1111110", "C4"},
+    {"1111111", "A#3"}
 };
 
 const std::map<std::string, std::string> testMapping = {
- {"0000000", "REST"},
- {"0100000", "A#4"},
- {"0010000", "A4"},
- {"0001000", "G4"},
- {"0000100", "F#4"},
- {"0000010", "F4"},
- {"0000001", "E4"}
+    {"0000000", "REST"},
+    {"1000000", "C5"},
+    {"0100000", "B4"},
+    {"0010000", "A4"},
+    {"0001000", "G4"},
+    {"0000100", "F4"},
+    {"0000010", "E4"},
+    {"0000001", "D4"}
 };
 
 
@@ -46644,9 +47413,10 @@ float volumeControl = 0.8f;
 
 std::map<std::string, std::string> mapping;
 const float kPitchBendSemitones = 1.0f;
-const float kBendSmoothing = 0.002f;
+const float kBendGlideSec = 0.06f;
 float leftRollPosition = 0;
 float rightRollPosition = 0;
+float rightRollStage1 = 0;
 float secondsElapsed = 0;
 
 
@@ -46660,48 +47430,46 @@ float fingersToFrequency(const std::map<std::string, float> &notes, const std::m
     }
 
 
-    if (leftConnected) {
-        for (int i = 3; i >= 0; i--) {
-            input += ((leftFingers >> i) & 1) ? '1' : '0';
+        if (leftConnected) {
+            for (int i = 3; i >= 1; i--) {
+                input += ((leftFingers >> i) & 1) ? '1' : '0';
+            }
+        } else {
+            input += "000";
         }
-    } else {
-        input += "0000";
-    }
 
 
-    if (rightConnected) {
-        for (int i = 3; i >= 1; i--) {
-            input += ((rightFingers >> i) & 1) ? '1' : '0';
+        if (rightConnected) {
+            for (int i = 3; i >= 0; i--) {
+                input += ((rightFingers >> i) & 1) ? '1' : '0';
+            }
+        } else {
+            input += "0000";
         }
-    } else {
-        input += "000";
-    }
-
-
 
     return mapping.count(input) ? notes.at(mapping.at(input)) : notes.at("REST");
 }
 
 float normalize(float position) {
- float normalized = position;
+        float normalized = position;
 
- while(normalized>180)
-  normalized-=360;
- while(normalized<-180)
-  normalized+=360;
- return normalized;
+        while(normalized>180)
+                normalized-=360;
+        while(normalized<-180)
+                normalized+=360;
+        return normalized;
 }
 
 float leftPositionToOctave(float position) {
- return 1;
+        return 1;
 
- float normalized = normalize(position);
+        float normalized = normalize(position);
 
- if(normalized > 45 && normalized <= 135)
-  return 0.5;
- if(normalized >= -135 && normalized < -45)
-  return 2;
- return 1;
+        if(normalized > 45 && normalized <= 135)
+                return 0.5;
+        if(normalized >= -135 && normalized < -45)
+                return 2;
+        return 1;
 }
 
 float rightPositionToBend(float roll, float semitones) {
@@ -46709,7 +47477,7 @@ float rightPositionToBend(float roll, float semitones) {
 }
 
 float generateSampleSin(BelaContext *context, float *phase, float volumeControl, float frequency) {
- float sample = 0.0f;
+        float sample = 0.0f;
 
     if(frequency > 0.0f) {
         float inverseSampleRate = 1.0f / context->audioSampleRate;
@@ -46724,91 +47492,94 @@ float generateSampleSin(BelaContext *context, float *phase, float volumeControl,
 }
 
 float generateSampleSax(BelaContext *context, float *phase, float volumeControl, float frequency) {
- float sample = 0.0f;
+    float sample = 0.0f;
 
- if(frequency > 0.0f) {
+    if(frequency > 0.0f) {
 
-     float inverseSampleRate = 1.0f / context->audioSampleRate;
-     *phase += 2.0f * 3.14159265358979323846 * frequency * inverseSampleRate;
-     if(*phase > 2.0f * 3.14159265358979323846) {
-         *phase -= 2.0f * 3.14159265358979323846;
-     }
-
-
-     float h1 = sin(*phase * 1.0f) * 1.00f;
-     float h2 = sin(*phase * 2.0f) * 0.75f;
-     float h3 = sin(*phase * 3.0f) * 0.50f;
-     float h4 = sin(*phase * 4.0f) * 0.40f;
-     float h5 = sin(*phase * 5.0f) * 0.25f;
-     float h6 = sin(*phase * 6.0f) * 0.15f;
-
-     float rawSaxWave = h1 + h2 + h3 + h4 + h5 + h6;
+        float inverseSampleRate = 1.0f / context->audioSampleRate;
+        *phase += 2.0f * 3.14159265358979323846 * frequency * inverseSampleRate;
+        if(*phase > 2.0f * 3.14159265358979323846) {
+            *phase -= 2.0f * 3.14159265358979323846;
+        }
 
 
+        float h1 = sin(*phase * 1.0f) * 1.00f;
+        float h2 = sin(*phase * 2.0f) * 0.75f;
+        float h3 = sin(*phase * 3.0f) * 0.50f;
+        float h4 = sin(*phase * 4.0f) * 0.40f;
+        float h5 = sin(*phase * 5.0f) * 0.25f;
+        float h6 = sin(*phase * 6.0f) * 0.15f;
 
-     float reedyWave = rawSaxWave + (rawSaxWave * rawSaxWave * 0.15f);
+        float rawSaxWave = h1 + h2 + h3 + h4 + h5 + h6;
 
 
-     float saturated = tanh(reedyWave * 1.5f) / tanh(1.5f);
+        float reedyWave = rawSaxWave + (rawSaxWave * rawSaxWave * 0.15f);
 
 
-     sample = saturated * 0.2f;
- }
+        float saturated = tanh(reedyWave * 1.5f) / tanh(1.5f);
+
+
+        sample = saturated * 0.2f;
+    }
 
     return sample;
 }
 
 float generateSampleTrumpet(BelaContext *context, float *phase, float volumeControl, float frequency) {
- float sample = 0.0f;
+    float sample = 0.0f;
 
- if(frequency > 0.0f) {
+    if(frequency > 0.0f) {
 
-     float inverseSampleRate = 1.0f / context->audioSampleRate;
-     *phase += 2.0f * 3.14159265358979323846 * frequency * inverseSampleRate;
-     if(*phase > 2.0f * 3.14159265358979323846) {
-         *phase -= 2.0f * 3.14159265358979323846;
-     }
-
-
-
-     float h1 = sin(*phase * 1.0f) * 1.00f;
-     float h2 = sin(*phase * 2.0f) * 0.60f;
-     float h3 = sin(*phase * 3.0f) * 0.80f;
-     float h4 = sin(*phase * 4.0f) * 0.40f;
-     float h5 = sin(*phase * 5.0f) * 0.50f;
-     float h6 = sin(*phase * 6.0f) * 0.25f;
-
-     float rawBrassWave = h1 + h2 + h3 + h4 + h5 + h6;
+        float inverseSampleRate = 1.0f / context->audioSampleRate;
+        *phase += 2.0f * 3.14159265358979323846 * frequency * inverseSampleRate;
+        if(*phase > 2.0f * 3.14159265358979323846) {
+            *phase -= 2.0f * 3.14159265358979323846;
+        }
 
 
+        float h1 = sin(*phase * 1.0f) * 1.00f;
+        float h2 = sin(*phase * 2.0f) * 0.60f;
+        float h3 = sin(*phase * 3.0f) * 0.80f;
+        float h4 = sin(*phase * 4.0f) * 0.40f;
+        float h5 = sin(*phase * 5.0f) * 0.50f;
+        float h6 = sin(*phase * 6.0f) * 0.25f;
 
-     float drive = 2.2f;
-     float saturated = tanh(rawBrassWave * drive) / tanh(drive);
+        float rawBrassWave = h1 + h2 + h3 + h4 + h5 + h6;
 
 
-     sample = saturated * 0.2f;
- }
+        float drive = 2.2f;
+        float saturated = tanh(rawBrassWave * drive) / tanh(drive);
 
- return sample;
+
+        sample = saturated * 0.2f;
+    }
+
+    return sample;
 }
 
 
 bool setup(BelaContext *context, void *userData)
 {
-        gSerialTask = Bela_createAuxiliaryTask(serialTask, 50, "glove-serial");
-        if (gSerialTask == 0) {
-                printf("Error: could not create serial task\n");
-                return false;
-        }
-        Bela_scheduleAuxiliaryTask(gSerialTask);
+    gSampleRate = context->audioSampleRate;
 
-  mapping = testMapping;
-     rt_printf("Kinetone Initialized!\n");
-        return true;
+    gSerialTask = Bela_createAuxiliaryTask(serialTask, 50, "glove-serial");
+    if (gSerialTask == 0) {
+        printf("Error: could not create serial task\n");
+        return false;
+    }
+    Bela_scheduleAuxiliaryTask(gSerialTask);
+
+    mapping = liamMap;
+    rt_printf("Kinetone Initialized!\n");
+    return true;
 }
 
 
 void render(BelaContext *context, void *userData) {
+
+    updateSetupGuide(context);
+    float instrumentTarget = gPlayable ? 1.0f : 0.0f;
+
 
     bool leftConnected = gHands[kLeft].connected.load();
     uint8_t leftFingers = gHands[kLeft].fingers.load();
@@ -46821,18 +47592,26 @@ void render(BelaContext *context, void *userData) {
 
     targetFrequency = fingersToFrequency(notes, mapping, leftConnected, leftFingers, rightConnected, rightFingers);
 
-    for(unsigned int n = 0; n < context->audioFrames; n++) {
 
+    float bendCoeff = 1.0f - expf(-1.0f / (kBendGlideSec * context->audioSampleRate));
+
+    for(unsigned int n = 0; n < context->audioFrames; n++) {
         secondsElapsed = (float)context->audioFramesElapsed / context->audioSampleRate;
         currentFrequency += (targetFrequency - currentFrequency) * 0.01f;
-        rightRollPosition += (rightRollTarget - rightRollPosition) * kBendSmoothing;
+
+        rightRollStage1 += (rightRollTarget - rightRollStage1) * bendCoeff;
+        rightRollPosition += (rightRollStage1 - rightRollPosition) * bendCoeff;
         leftRollPosition = leftRoll;
 
         float bendFactor = rightPositionToBend(rightRollPosition, kPitchBendSemitones);
         float octaveFactor = leftPositionToOctave(leftRollPosition);
         float mutatedFrequency = currentFrequency * octaveFactor * bendFactor;
 
-  float sample = generateSampleSin(context, &phase, volumeControl, mutatedFrequency);
+        float sample = generateSampleSax(context, &phase, volumeControl, mutatedFrequency);
+
+
+        gInstrumentGain += (instrumentTarget - gInstrumentGain) * 0.001f;
+        sample = sample * gInstrumentGain + guideSample();
 
         audioWrite(context, n, 0, sample);
         audioWrite(context, n, 1, sample);
