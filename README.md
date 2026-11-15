@@ -86,7 +86,15 @@ Notes come from the 7-character finger pattern: left index, middle and ring, the
 
 | Fingers (L L L R R R R) | Note |
 |---|---|
+
 | `0000000` | rest |
+| `0110001` | F#5 |
+| `0110000` | F5 |
+| `0110100` | E5 |
+| `0111000` | D#5 |
+| `0111100` | D5 |
+| `0111111` | C#5 |
+| `0111110` | C5 |
 | `0010000` | B4 |
 | `0100000` | A#4 |
 | `1000000` | A4 |
