@@ -2,7 +2,7 @@
 
 **Gestural music gloves, built at HackUMass 2026 by August Koskinen and Liam Downing.**
 
-Kinetone is a two-handed wearable instrument. You play notes by touching copper pads on your fingertips to your thumb, the way you'd finger a sax. Rolling your right hand bends the pitch. The gloves send everything wirelessly to a Bela board, which makes the sound in real time.
+Kinetone is a two-handed wearable instrument. You play notes by touching copper pads on your fingertips to your thumb, the way you'd finger a saxophone or other woodwind insturment, and you can bend the pitch by rolling your right hand side to side. Microcontrollers on the gloves send everything wirelessly to a Bela board, which makes the sound in real time.
 
 <p align="center">
   <img src="media/photos/liam-gloves-backs.jpg" width="45%" alt="Wearing both gloves, backs facing the camera">
